@@ -1,0 +1,156 @@
+.nav-container {
+    transition: 1s;
+    margin-bottom: 8em;
+}
+
+.nav-modify {
+    background-color: transparent;
+    transition: 0.5s;
+    box-shadow: none;
+    box-shadow: 0px 10px 8px #888888;
+}
+
+#logo1 {
+    filter: drop-shadow()
+}
+
+.nav-logo {
+    height: 3em;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: black;
+}
+
+.dropdown-menu {
+    padding: 2em 1.1em 2em 1.5em;
+}
+
+.dropdown-item {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: black;
+}
+
+.open-button {
+    position: fixed;
+    border-radius: 2em;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    cursor: pointer;
+    border-color: white;
+    background-color: #ffffff;
+    bottom: 23px;
+    right: 28px;
+}
+
+.open-btn {
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+
+.form-container .cancel {
+    background-color: red;
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+.land-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:2em;
+}
+.text-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:27em;
+    height:31em;
+    margin-right: 1.5em;
+}
+.small-head {
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #888888;
+}
+.locate-btn {
+    padding: 0.3em 1.4em 0.3em 1.4em;
+    color: white;
+    background-color: rgb(255, 180, 40);
+    font-size: 1.5em;
+    border-width: 0;
+    font-weight: 500;
+    letter-spacing: 2px;
+    filter: brightness(110%);
+    text-decoration: none;
+}
+.big-head{
+    width:14em;
+    font-weight: 900;
+    font-size: 2.1em;
+    line-height:1.1;
+    letter-spacing: 2px;
+}
+.locate-img{
+    width:15em;
+    box-shadow: 5px 5px 8px #888888;
+}
+.main-para{
+    font-weight: 700;
+    color:black;
+    font-size: 1.2em;
+    text-align: justify;
+    width:22em;
+    margin-top: 1em;
+    line-height: 1.25;
+}
+.section-img{
+    height:31em;
+    width:47em;
+}

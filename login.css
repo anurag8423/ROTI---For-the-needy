@@ -1,0 +1,168 @@
+.nav-container {
+    background-image: url("login.png");
+    background-size: cover;
+    height:100vh;
+    background-color: rgba(255, 180, 40, 0.844);
+    transition: 1s;
+    padding-top: 8em;
+}
+
+.nav-modify {
+    background-color: white;
+    transition: 0.5s;
+    box-shadow: none;
+    box-shadow: 0px 8px 44px #888787;
+}
+
+#logo1 {
+    filter: drop-shadow()
+}
+
+.nav-logo {
+    height: 3em;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: black;
+}
+
+.dropdown-menu {
+    padding: 2em 1.1em 2em 1.5em;
+}
+
+.dropdown-item {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: black;
+}
+.open-button {
+    position: fixed;
+    border-radius: 2em;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    cursor: pointer;
+    border-color: white;
+    background-color: #ffffff;
+    bottom: 23px;
+    right: 28px;
+}
+
+.open-btn {
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+
+.form-container .cancel {
+    background-color: red;
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+.land-div{
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-section{
+    width:35em;
+    height:32em;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2em;
+    -webkit-box-shadow: 0 0 20px rgb(217, 210, 210);
+    box-shadow: 0 0 20px rgb(217, 210, 210);
+    background-color: rgba(128, 128, 128, 0.463);
+}
+.main-head{
+    padding-top: 0.1em;
+    font-size: 5.5em;
+    font-weight: 700;
+    color:white;
+    letter-spacing: 2px;
+}
+.sec-head{
+    font-size: 1.5em;
+    font-weight: 600;
+    color:white;
+    transform: translateY(-0.9em);
+}
+.anoth-head{
+    color:white;
+    font-weight: 500;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+.form-sec{
+    width:30em;
+    height:3.5em;
+    border-radius: 3em;
+}
+.login-btn {
+    padding: 0.3em 0.8em 0.3em 0.8em;
+    color: white;
+    background-color: rgb(255, 180, 40);
+    font-size: 1.5em;
+    border-width: 0;
+    font-weight: 500;
+    letter-spacing: 2px;
+    filter: brightness(110%);
+    text-decoration: none;
+}
+.register-btn {
+    padding: 0.3em 1.4em 0.3em 1.4em;
+    color: white;
+    font-size: 1.5em;
+    border-width: 0;
+    font-weight: 500;
+    letter-spacing: 2px;
+    filter: brightness(110%);
+    text-decoration: none;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>ROTI - For the needy</title>
+</head>
+
+<body>
+    <div class="nav-container" id="nvid">
+        <nav class="navbar navbar-expand-lg nav-modify fixed-top mb-4" id="navid">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-5" href="index.html"><img class="nav-logo" src="logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active mx-2 px-2" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active mx-2 px-2" href="/locate.html">Locate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active mx-2 px-2" href="#">Act</a>
+                        </li>
+                        <li class="nav-item dropdown mx-2 px-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Donate
+                            </a>
+                            <ul class="dropdown-menu" style="border-radius: 1em;">
+                                <li><a class="dropdown-item" href="#">Monthly Gift</a></li>
+                                <li><a class="dropdown-item" href="#">Donor Advised Giving</a></li>
+                                <li><a class="dropdown-item" href="#">Tax Smart Giving</a></li>
+                                <li><a class="dropdown-item" href="#">Planned Giving</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active mx-2 px-2" href="/login.html">Connect Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="land-div">
+            <div id="typed-strings">
+                <p><a class="typetext">Act</a></p>
+                <p><a class="typetext">Connect</a></p>
+                <p><a class="typetext">Donate</a></p>
+            </div>
+            <span id="typed"></span>
+            <div class="home-para">to end hunger.</div>
+            <p class="sec-para">Your actions may end hunger.</p>
+            <button class="act-btn">ACT</button>
+        </div>
+        <button class="open-button" onclick="openForm()"><img class="open-btn" src="chatbot.png"></button>
+
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Chat</h1>
+
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+    </div>
+    <div class="next-div">
+        <div class="img-section"><img class="img-sec" src="hunger4.webp"></div>
+        <div class="para-section">
+            <p class="small-head">THE PROBLEM</p>
+            <p class="big-head"><span
+                    style="color:white;background-color: rgb(40, 40, 124);padding:0em 0.1em 0.05em 0.1em;">One in
+                    ten</span> people in India goes to bed hungry at night.</p>
+            <p class="main-para">One in four children under age five is severely malnourished. But despite agricultural
+                self-sufficiency,
+                a steadily increasing GDP, and increased per capita consumption, India finds itself engulfed in a
+                serious hunger crisis. </p>
+            <p class="main-para">This is discernible by the continuous downslide on the <a href="#">Global Hunger Index
+                    (GHI)</a>. India ranked <span style="color:red;">107th out
+                    of 121 countries</span> in 2022. </p>
+            <p class="bold-para">But Hunger is solvable.</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            backDelay: 800,
+            typeSpeed: 70,
+            backSpeed: 30,
+            startDelay: 0
+        });
+    </script>
+</body>
+
+</html>

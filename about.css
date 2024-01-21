@@ -1,0 +1,120 @@
+.nav2-container{
+    background-image: url("hunger2.jpg");
+    background-size: cover;
+    height:100vh;
+    margin-bottom: 10em;
+    
+}
+.nav-modify{
+    background-color: rgba(162, 158, 158, 0.156);
+    transition:0.5s;
+    box-shadow: none;
+    filter:brightness(120%);
+}
+#logo1{
+    filter:drop-shadow()
+}
+.nav-logo{
+    height:3em;
+}
+.nav-link{
+    font-size: 1.1em;
+    font-weight: 700;
+    color:black;
+}
+.dropdown-menu{
+    padding:2em 1.1em 2em 1.5em;
+}
+.dropdown-item{
+    font-size: 1.2em;
+    font-weight: 700;
+    color:black;   
+}
+.open-button {
+    position: fixed;
+    border-radius: 2em;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    cursor: pointer;
+    border-color: white;
+    background-color: #ffffff;
+    bottom: 23px;
+    right: 28px;
+  }
+  .open-btn{
+    height:2.5em;
+    width:2.5em;
+  }
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  .land-div{
+    padding-top: 8em;
+    padding-left: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .first-head{
+    color:#a59f9f;
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+  .second-head{
+    font-size: 2em;
+    font-weight: 900;
+    color:white;
+  }
+  .second-para{
+    width:25em;
+    color:white;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: justify;
+  }
